@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "ridecalendar",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authridecalendaraf0f6048",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2022-07-25T12:02:38.594Z"
+}
